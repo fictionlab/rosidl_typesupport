@@ -15,6 +15,8 @@
 #ifndef TYPE_SUPPORT_DISPATCH_HPP_
 #define TYPE_SUPPORT_DISPATCH_HPP_
 
+#ifndef ROSIDL_TYPESUPPORT_SINGLE_TYPESUPPORT
+
 #include <cstddef>
 #include <cstdio>
 #include <cstring>
@@ -24,7 +26,6 @@
 #include <list>
 #include <string>
 
-#ifndef ROSIDL_TYPESUPPORT_SINGLE_TYPESUPPORT
 #include "rcpputils/find_library.hpp"
 #include "rcpputils/shared_library.hpp"
 #endif // ROSIDL_TYPESUPPORT_SINGLE_TYPESUPPORT
